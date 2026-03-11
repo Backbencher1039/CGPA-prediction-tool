@@ -1,0 +1,126 @@
+/* Page background */
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: linear-gradient(135deg, #eef2f7, #d9e4f5);
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main container */
+
+.container {
+  width: 650px;
+  background: white;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Title */
+
+h2 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+p {
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+/* Table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th {
+  background: #f1f5fb;
+  padding: 10px;
+  color: #34495e;
+}
+
+td {
+  padding: 8px;
+}
+
+/* Inputs */
+
+input {
+  width: 90px;
+  padding: 7px;
+  border: 1px solid #ccd4e0;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 3px rgba(59, 130, 246, 0.5);
+}
+
+/* Buttons */
+
+button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+/* Result box */
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+/* Confidence indicator */
+
+#confidence {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.high {
+  color: #16a34a;
+}
+
+.medium {
+  color: #eab308;
+}
+
+.low {
+  color: #dc2626;
+}
+
+/* Chart area */
+
+canvas {
+  margin-top: 25px;
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 8px;
+}
